@@ -1,0 +1,165 @@
+body
+{
+    background: #192026;
+    color: #fff;
+}
+.wraper
+{
+    margin-left: 83px;
+    margin-top: 24px;
+    
+}
+.Anonime
+{
+    margin-top: 0px;
+    height: 36px;
+    font-size: 36px;
+    line-height: 36px;
+}
+header p.Home
+{
+    margin-left: 90px;
+}
+header p
+{
+    line-height: 36px;
+    width: 100px;
+    font-size: 18px;
+    color: #868686;
+    margin-left: 32px;
+    margin-top: 0;
+}
+.NavBar
+{
+    
+    position: absolute;
+    /* background: rebeccapurple; */
+    height: 36px;
+    width: 1274px;
+    display: flex;
+    
+}
+header input
+{
+    padding-left: 18px;
+    margin-left: 400px;
+    font-size: 18px;
+    color: #868686;
+    background: #374151;
+    border-style: none;
+    border-radius: 37px;
+    width: 370px;
+    height: 36px;
+    
+}
+
+.content-wraper
+{
+    margin-left: 52px;   
+}
+.content
+{
+    margin-top: 40px;
+}
+.content h1
+{
+    font-size: 32;
+}
+.content p
+{
+    margin-top: -20px;
+    font-size: 22;
+    color: #868686;
+    
+}
+.poster
+{
+    margin-top: -20px;
+    width: 1170px;
+    height: 400px;
+    border-radius: 13px;
+    background: linear-gradient( to right, rgba(29, 29, 29, 80%),
+         rgba(29, 29, 29, 0%)), url(media/image/spy_carousel\ 1.jpg);
+}
+.poster .text
+{
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 40px;
+   z-index: 1; 
+   
+}
+.poster .text p
+{
+    margin-top: 10px;
+    width: 40%;
+    color: #fff;
+}
+.cards
+{
+    display: flex;
+}
+.cards .card
+{
+    width: 170px;
+    height: 284.11px;
+    border-radius: 12px;
+}
+.cards .card
+{
+    margin-left: 30px;
+}
+.cards .card:first-child
+{
+    margin-left: 0px;
+}
+.card p
+{
+    font-size: 16px;
+    margin-top: -30px;
+    text-align: center;
+    color: #fff; 
+}
+.card h2
+{
+    text-align: center;
+    font-size: 16px;
+}
+.cards .card .img
+{
+    width: 170px;
+    height: 253.84px;
+    border-radius: 12px;
+    /* background: linear-gradient( to top, rgba(15, 30, 41, 100%),
+        rgba(29, 29, 29, 0%)), url(media/image/spy_card\ 1.png); */
+}
+#op .img
+{
+    background: linear-gradient( to top, rgba(15, 30, 41, 100%),
+        rgba(29, 29, 29, 0%)), url(media/image/One-piece\ 1.png);
+}
+#boruto .img
+{
+    background: linear-gradient( to top, rgba(15, 30, 41, 100%),
+        rgba(29, 29, 29, 0%)), url(media/image/boruto-naruto-next-generations\ 1.png);
+}
+#spy .img
+{
+    background: linear-gradient( to top, rgba(15, 30, 41, 100%),
+        rgba(29, 29, 29, 0%)), url(media/image/spy_card\ 1.png);
+}
+#snk .img
+{
+    background: linear-gradient( to top, rgba(15, 30, 41, 100%),
+        rgba(29, 29, 29, 0%)), url(media/image/attackontitan\ 1.png);
+}
+#ct .img
+{
+    background: linear-gradient( to top, rgba(15, 30, 41, 100%),
+        rgba(29, 29, 29, 0%)), url(media/image/captsu_card\ 1.png);
+}
+#aoashi .img
+{
+    background: linear-gradient( to top, rgba(15, 30, 41, 100%),
+        rgba(29, 29, 29, 0%)), url(media/image/aoashi_card\ 1.png);
+}
