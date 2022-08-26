@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body
+{
+    background: #4d4d5e;
+}
+.wraper
+{
+    margin-left: 50%;
+    margin-top: 30px;
+    transform: translateX(-50%);
+    background-color: #19191B;
+    width: 390px;
+    height: 844px;
+    border-radius: 50px;
+    overflow: hidden;
+    color: #fff;
+}
+.wraper .bgDots .Dot
+{
+    position: absolute;
+    z-index: -1;
+    margin-top: 241px;
+    margin-left: 251px;
+    width: 200px;
+    height: 200px;
+    background-color: #09FBD3;
+    border-radius: 50%;
+    display: grid;
+    -webkit-filter: blur(100px);
+}
+.wraper .bgDots #pinkDot
+{
+    margin-top: 83px;
+    margin-left: 6px;
+    background-color: #FE53BB; 
+}
+.wraper .statusbar
+{
+    display: flex;
+    width: 100%;
+    height: 44px;
+    /* background-color: #3d3d5e; */
+}
+.wraper .statusbar .time
+{
+    margin-left: 30px;
+    margin-top: 0px;
+    font-size: 15px;
+    line-height: 44px;
+    font-family: 'Anton', sans-serif;
+    font-style: inherit;
+}
+.wraper .statusbar .left
+{
+    display: flex;
+    margin-left: 250px;
+    /* margin-top: 7.33px; */
+    font-size: 15px;
+    width: 105px;
+    height: 44px;
+}
+.wraper .statusbar .left .CellularConnection
+{
+    width: 20px;
+    height: 44px;
+    /* background: #4d4d5e; */
+    display: flex;
+}
+.wraper .statusbar .left .CellularConnection div
+{
+    margin-left: 1px;
+    margin-top: 25px;
+    width: 3px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.wraper .statusbar .left .CellularConnection div:nth-child(2)
+{
+    margin-top: 23px;
+    height: 6px;
+}
+.wraper .statusbar .left .CellularConnection div:nth-child(3)
+{
+    margin-top: 21px;
+    height: 8px;
+}
+.wraper .statusbar .left .CellularConnection div:nth-child(4)
+{
+    margin-top: 19px;
+    height: 10px;
+}
+.wraper .statusbar .left .Wifi img
+{
+    margin-top: 17px;
+    margin-left: 3px;
+    height: 12px;
+}
+.wraper .statusbar .left .Battery 
+{
+    /* background: #09FBD3; */
+    width: 50px;
+    height: 44px;
+    display: inline-flex;
+}
+.wraper .statusbar .left .Battery .BatteryWraper
+{
+    width: 26px;
+    height: 11.33px;
+    display: flex;
+}
+.wraper .statusbar .left .Battery .BatteryWraper .Border
+{
+    margin-top: 17px;
+    margin-left: 4px;
+    border: solid 1px ;
+    width: 30px;
+    height: 9px;
+    border-radius: 2.67px;
+    border-color: rgba(225, 225, 225, 33%);
+}
+.wraper .statusbar .left .Battery .BatteryWraper .Border .Capacity
+{
+    margin-left: 1px;
+    margin-top: 1px;
+    width: 15px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 1.33px;
+}
+.wraper .statusbar .left .Battery .BatteryWraper .Cap
+{
+    margin-left: 1px;
+    margin-top: 20px;
+    width: 2px;
+    height: 5px;
+    background-color: rgba(225, 225, 225, 33%);
+    border-radius: 0% 500% 500% 0%;
+}
+.wraper .Frame
+{
+    margin-top: 168px;
+    margin-left: 59px;
+    width: 292px;
+    height: 204px;
+    /* background: #000; */
+}
+.wraper .Frame h1
+{
+    font-size: 34px;
+    text-align: center;
+}
+.wraper .Frame p
+{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    text-align: center;
+    width: 264px;
+    height: 66px;
+}
+.test
+{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    background-color: rgb(94, 89, 89);
+    /* display: inline; */
+}
+.wraper input
+{
+    margin-left: 46px;
+    width: 126px;
+    height: 42px;
+    background-color: #fff;
+    color: #03060E;
+    border-radius: 15px;
+}
+.wraper input:last-child
+{
+    margin-top: 305px;
+    margin-left: 53px;
+    width: 126px;
+    height: 42px;
+    background-color: #fff;
+    color: #03060E;
+    border-radius: 15px;
+    border: none;
+}
+.wraper .Dots
+{
+    margin-left: 178px;
+    margin-top: 30px;
+    width: 34px;
+    height: 6px;
+    display: flex;
+}
+.wraper .Dots div
+{
+    margin-left: 8px;
+    width: 6px;
+    height: 6px;
+    background-color: rgba(255, 255, 255, 20%);
+    border-radius: 50%;
+    
+}
+.wraper .Dots div:first-child
+{
+    background-color: #08F7FE;
+    margin-left: 0px;
+}
